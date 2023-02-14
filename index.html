@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fahim's Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="text-6xl mt-10 text-center font-medium">
+        Welcome to <span class="text-blue-600">Fahim's Bank</span>
+      </h1>
+    </header>
+    <main>
+      <section class="w-9/12 mx-auto mt-10 bg-blue-600 rounded-lg">
+        <h3 class="text-3xl font-semibold p-5">Please Login</h3>
+        <form>
+          <input
+            class="block w-9/12 mx-5 p-3 rounded-lg"
+            id="email-field"
+            type="email"
+            placeholder="Your Email"
+          />
+          <input
+            class="block w-9/12 m-5 p-3 rounded-lg"
+            type="password"
+            id="password-field"
+            placeholder="Your Password"
+          />
+        </form>
+        <button
+          class="mx-5 mb-5 bg-orange-300 px-5 py-3 rounded-lg hover:bg-yellow-600"
+          id="login-btn"
+        >
+          Login
+        </button>
+      </section>
+    </main>
+    <script src="js/login.js"></script>
+  </body>
+</html>
